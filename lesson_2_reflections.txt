@@ -3,3 +3,11 @@ lesson_2_reflections.txt
 What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, you create a directory that contains all the necessary repository files that holds the metadata. You do it because you can begin tracking the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area include the information of the changes to be committed to the repository, while the untracked files in the working directory haven't been committed yet. I think it offers the value of being able to choose the files you want to add to commit changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use your git diff --staged to compare it to the most recent commit in your repository and decide whether it's a reasonable change to commit. And you can also use git diff to view the changes you've made since adding the files to the staging area as well if you feel that your change wasn't significant enough.
