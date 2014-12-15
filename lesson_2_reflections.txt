@@ -19,3 +19,7 @@ Branches could be useful for if you're wanting to work on a program that involve
 How do the diagrams help you visualize the branch structure?
 
 The diagrams help me visualize the branch structure by showing the commits for each branch and how they lead back to its parent. And I can also visualize the commits that aren't part of any branch that you can create a new branch for when you have a commit that is unreachable. It's a good way to see what kind of branches there are and what commits may not be part of a branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that you create one branch that has all the commits of both branches that are sorted by timestamp. And as a result, you have two separate branches of commits that are both the parent of the merged branch. It's represented this way because each branch has different parents and you can't create one line of commits that express that, so it's one branch that separates off into two lines of commits.
