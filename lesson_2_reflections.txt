@@ -11,3 +11,8 @@ The staging area include the information of the changes to be committed to the r
 How can you use the staging area to make sure you have one commit per logical change?
 
 You can use your git diff --staged to compare it to the most recent commit in your repository and decide whether it's a reasonable change to commit. And you can also use git diff to view the changes you've made since adding the files to the staging area as well if you feel that your change wasn't significant enough.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches could be useful for if you're wanting to work on a program that involves an independent line of development. Such as in the video where they have an experimental feature, or an Italian version, it could be like an abstraction for a new directory where you can experiment on adding or working new features that you're unsure of.
+
