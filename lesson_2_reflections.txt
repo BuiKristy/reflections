@@ -16,3 +16,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 Branches could be useful for if you're wanting to work on a program that involves an independent line of development. Such as in the video where they have an experimental feature, or an Italian version, it could be like an abstraction for a new directory where you can experiment on adding or working new features that you're unsure of.
 
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize the branch structure by showing the commits for each branch and how they lead back to its parent. And I can also visualize the commits that aren't part of any branch that you can create a new branch for when you have a commit that is unreachable. It's a good way to see what kind of branches there are and what commits may not be part of a branch.
