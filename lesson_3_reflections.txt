@@ -6,6 +6,6 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
   Pulling changes manually is better because you get to figure out where changes are being pulled to and Git doesn't have to 
-  guess what branch you're wanting to pull changes to and such. But pulling files can be a problem in general because you don't 
-  get a chance to see what changes are being made and your working directory gets updated without seeing what kinds of things 
-  were changed.
+  guess what branch you're wanting to pull changes to and such. There may also be a lot of changes you don't get a chance to see, and
+  pulling files can be a problem in general because you don't get a chance to see what changes are being made and your working
+  directory gets updated without seeing what kinds of things were changed.
