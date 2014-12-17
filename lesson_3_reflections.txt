@@ -18,21 +18,21 @@ Describe the differences between forks, clones, and branches. When would you use
   at once. 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-   The benefit of having a copy of the last known state is that you could have a stable copy of something to work with in case you run
-   into any problems that may occur when you're constanting fetching and pulling or pushing files. Having a backup of something is 
-   always useful if you're in need of a recovery point, even if it's not a current copy.
+  The benefit of having a copy of the last known state is that you could have a stable copy of something to work with in case you run
+  into any problems that may occur when you're constanting fetching and pulling or pushing files. Having a backup of something is 
+  always useful if you're in need of a recovery point, even if it's not a current copy.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-	Collaborating without using Git or GitHub would be much harder in general because you would need something like Google Drive or 
-	Dropbox to store all the files in one place. All the files would still be in one place and you can still communicate through email 
-	or Skype, but it would be a lot harder in general because there are no merge functions and you could potentially overwrite someone's
-	file if you're not careful. You also don't have a list of commits that show your constant changes, and it would then be harder to 
-	keep track of what's been edited or changed.
+  Collaborating without using Git or GitHub would be much harder in general because you would need something like Google Drive or 
+  Dropbox to store all the files in one place. All the files would still be in one place and you can still communicate through email 
+  or Skype, but it would be a lot harder in general because there are no merge functions and you could potentially overwrite someone's 
+  file if you're not careful. You also don't have a list of commits that show your constant changes, and it would then be harder to 
+  keep track of what's been edited or changed.
 
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
-	Making changes in a separate branch means that you can edit things as you want without breaking the main code. You can also change
-	and edit things, or work on a different feature that may still be buggy or experimental. It's a chance for you to work on something
-	different from the main idea without affecting the working code. So just by wanting to make a change, work on something new, fixing
-	something without being entirely sure are all reasons for making a separate branch to work on instead of doing so directly in 
-	master. You can always merge your changes into the master branch once everything in it is complete, so it's really good to have 
-	different branches for that.
+  Making changes in a separate branch means that you can edit things as you want without breaking the main code. You can also change
+  and edit things, or work on a different feature that may still be buggy or experimental. It's a chance for you to work on something
+  different from the main idea without affecting the working code. So just by wanting to make a change, work on something new, fixing
+  something without being entirely sure are all reasons for making a separate branch to work on instead of doing so directly in 
+  master. You can always merge your changes into the master branch once everything in it is complete, so it's really good to have 
+  different branches for that.
