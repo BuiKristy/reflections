@@ -28,3 +28,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	or Skype, but it would be a lot harder in general because there are no merge functions and you could potentially overwrite someone's
 	file if you're not careful. You also don't have a list of commits that show your constant changes, and it would then be harder to 
 	keep track of what's been edited or changed.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	Making changes in a separate branch means that you can edit things as you want without breaking the main code. You can also change
+	and edit things, or work on a different feature that may still be buggy or experimental. It's a chance for you to work on something
+	different from the main idea without affecting the working code. So just by wanting to make a change, work on something new, fixing
+	something without being entirely sure are all reasons for making a separate branch to work on instead of doing so directly in 
+	master. You can always merge your changes into the master branch once everything in it is complete, so it's really good to have 
+	different branches for that.
