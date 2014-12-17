@@ -21,3 +21,10 @@ What is the benefit of having a copy of the last known state of the remote store
    The benefit of having a copy of the last known state is that you could have a stable copy of something to work with in case you run
    into any problems that may occur when you're constanting fetching and pulling or pushing files. Having a backup of something is 
    always useful if you're in need of a recovery point, even if it's not a current copy.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Collaborating without using Git or GitHub would be much harder in general because you would need something like Google Drive or 
+	Dropbox to store all the files in one place. All the files would still be in one place and you can still communicate through email 
+	or Skype, but it would be a lot harder in general because there are no merge functions and you could potentially overwrite someone's
+	file if you're not careful. You also don't have a list of commits that show your constant changes, and it would then be harder to 
+	keep track of what's been edited or changed.
